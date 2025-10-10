@@ -3,7 +3,7 @@
 ```json
 {
   "@type": "Organization",
-  "@id": "https://topo.art/r/o1",
+  "@id": "https://topo.art/r#o1",
   "name": "TOPO",
   "url": "https://topo.art/",
   "additionalType": "Pas sur si on l'ajoute",

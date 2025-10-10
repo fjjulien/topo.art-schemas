@@ -12,6 +12,7 @@ https://culturecreates.github.io/artsdata-data-model/classes/person.html
 ```json
 {
   "@type": "Person",
+  "@id": "https://topo.art/r#a8467",
   "additionalType": "",
   "name": "Michel Huneault",
   "alternateName": "Michel Huneault",
@@ -42,4 +43,5 @@ https://culturecreates.github.io/artsdata-data-model/classes/person.html
   ],
   "disambiguatingDescription": ""
 }
+
 ```

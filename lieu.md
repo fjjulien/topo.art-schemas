@@ -6,7 +6,7 @@
 ```json
 {
   "@type": "Place",
-  "@id": "https://topo.art/r/p1",
+  "@id": "https://topo.art/r#p1",
   "name": "La Vitrine",
   "address": {
     "@type": "PostalAddress",

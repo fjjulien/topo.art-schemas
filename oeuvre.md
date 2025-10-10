@@ -4,7 +4,7 @@ https://culturecreates.github.io/artsdata-data-model/classes/offer.html
 ```json
 {
   "@type": "CreativeWork",
-  "@id": "https://topo.art/r/c882",
+  "@id": "https://topo.art/r#c882",
   "additionalType": "http://www.wikidata.org/entity/Q11424",
   "name": "4 heures",
   "alternateName ": "4h",
@@ -16,7 +16,7 @@ https://culturecreates.github.io/artsdata-data-model/classes/offer.html
   "creator": [
     {
       "@type": "Person",
-      "@id": "https://topo.art/r/a8467",
+      "@id": "https://topo.art/r#a8467",
       "name": "Michel Huneault",
       "url": "http://michelhuneault.com/",
       "sameAs": [
@@ -26,7 +26,7 @@ https://culturecreates.github.io/artsdata-data-model/classes/offer.html
     },
     {
       "@type": "Person",
-      "@id": "https://topo.art/r/a8469",
+      "@id": "https://topo.art/r#a8469",
       "name": "Johann Mazé",
       "sameAs": "https://johannmaze.bandcamp.com/"
     }
