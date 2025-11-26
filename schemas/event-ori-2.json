@@ -1,0 +1,106 @@
+{
+  "@context":"http://schema.org",
+  "@type":"Event",
+  "@id":"--URI constituant un identifiant unique de l’exposition. Optionnel, mais si le site permet d’afficher à plus qu’un endroit, ce ne vaut pas la peine--",
+  "additionalType":"http://kg.artsdata.ca/resource/ExhibitionEvent",
+  "name":"--Titre de l'exposition--",
+  "alternateName":"--Titre alternatif de l'exposition--",
+  "sameAs":[
+    "--lien vers une page sur un réseau social, si disponible--",
+    "--URI Artsdata.ca, obtenu avec l'API de réconciliation ou l'outil de recherche : Artsdata.ca URI, obtained with the Reconciliation API or the search tool--",
+    "--URI Wikidata pour l’exposition, si disponible, au format http://www.wikidata.org/entity/$1--"
+  ],
+  "eventSchedule": {
+    "@type": "Schedule",
+    "startDate": "--Date du début de l'exposition, en format ISO 8601, par exemple 2025-03-15--",
+    "endDate": "--Date de fin de l'exposition, en format ISO 8601, par exemple 2025-03-15--",
+    "repeatFrequency": "P1W",
+    "byDay": [
+      "http://schema.org/Monday",
+      "http://schema.org/Tuesday",
+      "http://schema.org/Wednesday",
+      "http://schema.org/Thursday",
+      "http://schema.org/Friday",
+      "http://schema.org/Saturday",
+      "http://schema.org/Sunday"
+    ],
+    "startTime": "--Heure du début de l'exposition, en format ISO 8601, par exemple 9:00:00--",
+    "endTime": "--Heure du début de l'exposition, en format ISO 8601, par exemple 17:00:00--",
+    "scheduleTimezone": "--Fuseau horaire de l’exposition, en format IANA, par exemple America/Montréal. Voir la liste complète à https://en.wikipedia.org/wiki/List_of_tz_database_time_zones--"
+  },
+  "startDate":"--Date et heure du début de l'exposition, en format ISO 8601, par exemple 2025-03-15T19:30:00-05:00--",
+  "endDate":"--Date et heure de fin de l'exposition, en format ISO 8601. Si l'heure n'est pas connue, mettez seulement la date, par exemple 2022-03-15--",
+  "location":[
+    {
+      "@type":"Place",
+      "@id":"--URI constituant un identifiant unique du lieu. Optionnel--",
+      "name":"--Nom du lieu--",
+      "address":{
+        "@type":"PostalAddress",
+        "addressLocality":"--Nom de la ville--",
+        "addressRegion":"--Abréviation postale à deux lettres de la province ou du territoire--",
+        "postalCode":"--Code postal--",
+        "streetAddress":"--Numéro civique et rue--",
+        "addressCountry":"CA"
+      },
+      "sameAs":[
+        "--lien vers un ou des comptes de réseaux sociaux, si disponible--",
+        "--URI Artsdata.ca, obtenu avec l'API de réconciliation ou l'outil de recherche--",
+        "--URI Wikidata au format http://www.wikidata.org/entity/$1--"
+      ]
+    },
+    {
+      "@type":"VirtualLocation",
+      "@id":"--URI constituant un identifiant unique de lieu virtuelle. Optionnel--",
+      "url":"--URL vers le lieu virtuelle : URL to the virtual place--"
+    }
+  ],
+  "eventStatus":"https://schema.org/EventScheduled",
+  "eventAttendanceMode":"--Un des trois types énuméres ici : https://schema.org/EventAttendanceModeEnumeration--",
+  "description":"--Description de l'exposition--",
+  "url":"--URL officiel de la page Web de l'exposition--",
+  "image":"--URL de l'image vedette--",
+  "keywords":"--Un mot-clé lié à l'événement, Un autre mot-clé lié à l'événement, etc.--",
+  "organizer":[{
+    "@type":"--Utiliser le type 'Organization' si le diffuseur est une compagnie ou un groupe--",
+    "@id":"--URI constituant un identifiant unique de la compagnie. Optionnel--",
+    "name":"--Nom du diffuseur--",
+    "url":"--URL du site ou de la page officielle du diffuseur--",
+    "sameAs":[
+      "--lien vers un ou des comptes de réseaux sociaux du diffuseur, si disponible--",
+      "--URI Artsdata.ca, obtenu avec l'API de réconciliation ou l'outil de recherche--",
+      "--URI Wikidata au format http://www.wikidata.org/entity/$1--"]
+  }],
+  "workFeatured": {
+    "@type":"CreativeWork",
+    "additionalType":"----URI d'une catégorie correspondant au type particulier de l'œuvre par exemple une URI Wikidata ou AAT. Optionnel----",
+    "name":"--nom de l’oeuvre--",
+    "url":"--URL de la page web décrivant l’oeuvre--",
+    "creator":[{
+      "@type":"--Utiliser le type 'Organization' si c’est un collectif qui est en vedette, ou 'Person' si c’est un.e artiste unique--",
+      "@id":"--URI constituant un identifiant unique de l’artiste ou le collectif--",
+      "name":"--Nom de l’artiste ou le collectif--",
+      "url":"--URL du site officiel de l’artiste ou le collectif--",
+      "sameAs":[
+        "--lien vers un ou des comptes de réseaux sociaux, si disponible--",
+        "--URI Artsdata.ca, obtenu avec l'API de réconciliation ou l'outil de recherche--",
+        "--URI Wikidata au format http://www.wikidata.org/entity/$1--"]
+    }]
+  },
+  "isAccessibleForFree":"--’true’, si l’événement est gratuit, ou ‘false’ s’il n’est pas gratuit--",
+  "offers":[{
+    "@type":"Offer",
+    "availability":"http://schema.org/InStock",
+    "url":"--URL vers la page d'achat de billets--",
+    "validFrom":"--Date et heure du début de la disponibilité, au format ISO 8601, par exemple 2016-03-31T08:00:00+08:00--",
+    "price":"--Prix au format 9.99--",
+    "priceCurrency":"CAD"
+  }],
+  "mainEntityOfPage":[{
+    "@type":"WebPage",
+    "@id":"--URI constituant un identifiant unique de la page Web. Optionnel--",
+    "inLanguage":"--fr pour français--",
+    "url":"--URL de la page Web--",
+    "lastReviewed":"--Date et heure de la dernière révision--"
+  }]
+}

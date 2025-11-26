@@ -5,10 +5,14 @@
   "additionalType": "http://kg.artsdata.ca/resource/ExhibitionEvent",
   "Name": "4 heures | Michel Huneault et Johann Mazé",
   "alternateName": "Film d’observation non linéaire",
+  "startDate": "2023-05-26",
+  "endDate": "2023-07-30",
   "eventSchedule": {
     "@type": "Schedule",
     "startDate": "2023-05-26",
     "endDate": "2023-07-30",
+    "startTime": "10:00:00",
+    "endTime": "17:00:00",
     "repeatFrequency": "P1W",
     "byDay": [
       "http://schema.org/Monday",
@@ -18,8 +22,6 @@
       "http://schema.org/Friday",
       "http://schema.org/Saturday"
     ],
-    "startTime": "10:00:00",
-    "endTime": "17:00:00",
     "scheduleTimezone": "America/Montreal"
   },
   "location": [

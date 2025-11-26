@@ -1,30 +1,150 @@
 {
-  "@type": "CreativeWork",
-  "@id": "https://topo.art/r#c882",
-  "additionalType": "http://www.wikidata.org/entity/Q11424",
-  "name": "4 heures",
-  "alternateName ": "4h",
-  "description": "",
-  "url": "https://topo.art/4heures/",
-  "image": "",
-  "disambiguatingDescription ": "",
-  "mainEntityOfPage": "",
-  "creator": [
+  "@type": "Event",
+  "@id": "http://topo.art/r/e8338",
+  "name": "NOS CHÂTEAUX DE SABLE | Michel Huneault",
+  "startTime": "2025-11-06T23:00:00+00:00",
+  "endTime": "2025-11-16T00:00:00+00:00",
+  "alternateName": "PAs 4heures",
+  "description": "TOPO vous invite en avant-première à un banc d’essai de NOS CHÂTEAUX DE SABLE, la plus récente œuvre de réalité virtuelle de Michel Huneault créée en coproduction avec Sporobole : conception technologique et développement par Renaud Gervais et Guillaume Lévesque.\r\n\r\nPoursuivant la recherche et création du projet PÉNINSULE(2019-2022), NOS CHÂTEAUX DE SABLE s’intéresse à la tension entre l’amour d’un territoire à risque et la rationalité nécessaire pour accepter les impacts des changements climatiques.\r\n\r\n> >\r\n\r\nBienvenue dans NOS CHÂTEAUX DE SABLE\r\n\r\nUne œuvre immersive, non linéaire, contemplative, sans fin — en perpétuelle recomposition, offrant à chacun.e un parcours unique.\r\n\r\nL’expérience rassemble des environnements vulnérables augmentés au laser, des portraits tridimensionnels d’individus et d’artéfacts rencontrés sur le territoire, des esquisses de refuges fragilisés, ainsi que des brunantes recomposées à l’infini.\r\n\r\nVos mains et votre regard auront un impact sur ces éléments.\r\n\r\nDéchaussez-vous, glissez vos orteils dans le sable.\r\n\r\nMettez le casque VR et ajustez la molette à l’arrière pour votre confort.\r\n\r\nL’expérience débutera après quelques secondes.",
+  "url": "http://localhost:8080/programmation/emnos-chateaux-de-sable-em-michel-huneault/",
+  "additionalType": "ExhibitionEvent",
+  "eventStatus": "EventScheduled",
+  "eventAttendanceMode": "OfflineEventAttendanceMode",
+  "isAccessibleForFree": true,
+  "eventSchedule": {
+    "@type": "Schedule",
+    "startDate": "2025-11-06",
+    "endDate": "2025-11-07",
+    "startTime": "05:00:00",
+    "endTime": "23:00:00",
+    "repeatFrequency": "P1D",
+    "scheduleTimezone": "America/Montreal",
+    "byDay": [
+      "http://schema.org/Monday",
+      "http://schema.org/Friday"
+    ]
+  },
+  "organizer": [
     {
-      "@type": "Person",
-      "@id": "https://topo.art/r#a8467",
-      "name": "Michel Huneault",
-      "url": "http://michelhuneault.com/",
+      "@type": "Organization",
+      "@id": "http://topo.art/r/o8486",
+      "name": "TOPO",
+      "url": "http://localhost:8080/organization/topo/",
+      "additionalType": "http://kg.artsdata.ca/resource/ArtsOrganization",
       "sameAs": [
-        "https://www.facebook.com/michel.huneault",
-        "http://www.wikidata.org/entity/Q24705892"
-      ]
+        "https://topo.art/",
+        "https://www.facebook.com/topomtl/",
+        "http://kg.artsdata.ca/resource/K2-5986",
+        "http://www.wikidata.org/entity/Q107051816"
+      ],
+      "image": {
+        "@type": "mediaObject",
+        "url": "http://localhost:8080/app/uploads/2025/06/logo_topo2024_noir_CERCLE.png",
+        "usageInfo": "https://kg.artsdata.ca/doc/image-policy",
+        "disambiguatingDescription": "Logo de l'organisation Topo.art en format carré.",
+        "description": "Logo de l'organisation Topo.art en format carré.",
+        "sdDatePublished": "2025-06-03T18:31:58+00:00"
+      }
+    }
+  ],
+  "workFeatured": [
+    {
+      "@type": "CreativeWork",
+      "@id": "http://topo.art/r/c882",
+      "name": "4 heures",
+      "url": "http://localhost:8080/production/4-heures-michel-huneault-et-johann-maze/",
+      "additionalType": "http://iflastandards.info/ns/lrm/lrmoo/F1",
+      "mainEntityOfPage": "https://topo.art/4heures",
+      "creator": [
+        {
+          "@type": "Person",
+          "@id": "http://topo.art/r/a8467",
+          "name": "Michel Huneault",
+          "alternateName": "Mikehu",
+          "url": "http://localhost:8080/artiste/michel-huneault-2/",
+          "inLanguage": "fr",
+          "disambiguatingDescription": "Artiste basé à Montréal, QC (CA)",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "123456 rue quatre",
+            "addressLocality": "Montréal",
+            "addressRegion": "QC",
+            "postalCode": "H2T 3B2",
+            "addressCountry": "CA"
+          },
+          "sameAs": [
+            "https://www.facebook.com/michel.huneault",
+            "http://www.wikidata.org/entity/Q24705892",
+            "https://michelhuneault.com/"
+          ],
+          "image": {
+            "@type": "mediaObject",
+            "url": "http://localhost:8080/app/uploads/2025/02/Daniel_canty_1-1.jpg",
+            "usageInfo": "https://kg.artsdata.ca/doc/image-policy",
+            "disambiguatingDescription": "",
+            "description": "",
+            "sdDatePublished": "2025-02-12T17:00:56+00:00"
+          }
+        },
+        {
+          "@type": "Person",
+          "@id": "http://topo.art/r/a683",
+          "name": "Johann Mazé",
+          "url": "http://localhost:8080/artiste/johann-maze/",
+          "image": {
+            "@type": "mediaObject",
+            "url": "http://localhost:8080/app/uploads/2024/03/Johann-Maze-1x1-1.jpg",
+            "usageInfo": "https://kg.artsdata.ca/doc/image-policy",
+            "disambiguatingDescription": "Portrait de Johann Mazé",
+            "description": "Portrait de Johann Mazé",
+            "sdDatePublished": "2024-03-21T16:16:21+00:00"
+          }
+        },
+        {
+          "@type": "Person",
+          "@id": "http://topo.art/r/a7139",
+          "name": "Maxime-Alexandre Gosselin",
+          "url": "http://localhost:8080/artiste/maxime-alexandre-gosselin/",
+          "image": {
+            "@type": "mediaObject",
+            "url": "http://localhost:8080/app/uploads/2024/04/MaximeAlexandreGosselin_rond.png",
+            "usageInfo": "https://kg.artsdata.ca/doc/image-policy",
+            "disambiguatingDescription": "Maxime-Alexandre Gosselim, directeur technique de TOPO - Centre de création numérique",
+            "description": "Maxime-Alexandre Gosselim, directeur technique de TOPO - Centre de création numérique",
+            "sdDatePublished": "2024-04-11T19:52:51+00:00"
+          }
+        }
+      ],
+      "image": {
+        "@type": "mediaObject",
+        "url": "http://localhost:8080/app/uploads/2023/10/rivierekayak.png",
+        "usageInfo": "https://kg.artsdata.ca/doc/image-policy",
+        "disambiguatingDescription": "",
+        "description": "",
+        "sdDatePublished": "2023-10-11T20:49:37+00:00"
+      }
     },
     {
-      "@type": "Person",
-      "@id": "https://topo.art/r#a8469",
-      "name": "Johann Mazé",
-      "sameAs": "https://johannmaze.bandcamp.com/"
+      "@type": "CreativeWork",
+      "@id": "http://topo.art/r/c3439",
+      "name": "101 Song Scores | Sheena Hoszko et Michelle Lacombe",
+      "url": "http://localhost:8080/production/101-song-scores-sheena-hoszko-et-michelle-lacombe/",
+      "image": {
+        "@type": "mediaObject",
+        "url": "http://localhost:8080/app/uploads/2024/05/Scan003r.jpg",
+        "usageInfo": "https://kg.artsdata.ca/doc/image-policy",
+        "disambiguatingDescription": "",
+        "description": "",
+        "sdDatePublished": "2024-05-27T20:55:12+00:00"
+      }
     }
-  ]
+  ],
+  "image": {
+    "@type": "mediaObject",
+    "url": "http://localhost:8080/app/uploads/2025/06/NosChateauxDeSable-scaled.jpg",
+    "usageInfo": "https://kg.artsdata.ca/doc/image-policy",
+    "disambiguatingDescription": "NOS CHATEAUX DE SABLE - Michel Huneault - 12,13 et 14 juin 2025",
+    "description": "NOS CHATEAUX DE SABLE - Michel Huneault - 12,13 et 14 juin 2025",
+    "sdDatePublished": "2025-06-02T15:47:14+00:00"
+  }
 }

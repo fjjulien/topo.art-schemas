@@ -1,0 +1,10 @@
+{
+  "image": {
+    "@type": "ImageObject",
+    "url": "--URL de l'image : image URL--",
+    "usageInfo": "https://kg.artsdata.ca/doc/image-policy",
+    "disambiguatingDescription": "--Image de [NOM DE L'ENTITÉ], provenant de [NOM DE DOMAINE DU SITE WEB] : Image of [ENTITY NAME], sourced from [WEBSITE DOMAIN NAME]--",
+    "description": "--Alt texte, si disponible : Alt text, if available--",
+    "sdDatePublished": "--Date à laquelle les métadonnées de l’ImageObject ont été générées : Date on which the ImageObject’s metadata was generated--"
+  }
+}

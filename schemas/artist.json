@@ -6,11 +6,6 @@
   "alternateName": "Michel Huneault",
   "image": "",
   "url": "http://michelhuneault.com/",
-  "identifier": {
-    "@type": "PropertyValue",
-    "propertyID": "isbn",
-    "value":  "889647468"
-  },
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Montréal",
@@ -22,12 +17,6 @@
   "sameAs": [
     "https://www.facebook.com/michel.huneault",
     "http://www.wikidata.org/entity/Q24705892"
-  ],
-  "hasOccupation": [
-    {
-      "name": "Directeur",
-      "description": "De l'agence Topo.art"
-    }
   ],
   "disambiguatingDescription": ""
 }

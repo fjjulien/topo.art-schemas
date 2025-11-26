@@ -5,7 +5,7 @@ https://culturecreates.github.io/artsdata-data-model/classes/offer.html
 {
   "@type": "CreativeWork",
   "@id": "https://topo.art/r#c882",
-  "additionalType": "http://www.wikidata.org/entity/Q11424",
+  "additionalType": "http://iflastandards.info/ns/lrm/lrmoo/F1",
   "name": "4 heures",
   "alternateName ": "4h",
   "description": "",
@@ -33,3 +33,10 @@ https://culturecreates.github.io/artsdata-data-model/classes/offer.html
   ]
 }
 ```
+
+# Questionnement
+
+## disambiguatingDescription
+Il pourrait s’avérer intéressant de générer de façon programmatique une description de désambiguïsation suivant une formule telle que : “œuvre de {{creator.name}}...” Cela pourrait faciliter la récupération d’enregistrements de données dans une interface de recherche.
+
+- Q?: Est-ce qu'on ajoute tous les auteurs contenu dans `creator` ?
