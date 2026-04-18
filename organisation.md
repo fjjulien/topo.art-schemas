@@ -1,4 +1,4 @@
-# Schema Organisation
+# Schéma Organisation
 
 ```json
 {
