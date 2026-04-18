@@ -15,3 +15,7 @@
   ]
 }
 ```
+
+## Documentation
+
+https://docs.artsdata.ca/classes/organization.html
