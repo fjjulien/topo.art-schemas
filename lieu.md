@@ -7,6 +7,7 @@ La modélisation retenue pour les lieux suit le schéma standard. À noter : nou
 
 ```json
 {
+  "@context": "https://schema.org",
   "@type": "Place",
   "@id": "https://topo.art/r#p1",
   "name": "La Vitrine",
