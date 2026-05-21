@@ -6,6 +6,7 @@ Le lien entre l'œuvre et les personnes qui l'ont créée est articulé avec la 
 
 ```json
 {
+  "@context": "https://schema.org",
   "@type": "CreativeWork",
   "@id": "https://topo.art/r#c882",
   "additionalType": "http://iflastandards.info/ns/lrm/lrmoo/F1",
