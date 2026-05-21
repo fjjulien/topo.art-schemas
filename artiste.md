@@ -6,6 +6,7 @@ La modélisation retenue pour les personnes suit un schéma minimal. Pour compen
 
 ```json
 {
+  "@context": "https://schema.org",
   "@type": "Person",
   "@id": "https://topo.art/r#a8467",
   "name": "Michel Huneault",
