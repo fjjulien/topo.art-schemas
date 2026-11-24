@@ -19,7 +19,7 @@ Cet exemple de données structurées décrit à la fois l’exposition, avec son
     "@type": "Schedule",
     "startDate": "2023-05-26",
     "endDate": "2023-07-30",
-    "repeatFrequency": "P1W",
+    "repeatFrequency": "P1D",
     "byDay": [
       "http://schema.org/Monday",
       "http://schema.org/Tuesday",
@@ -72,13 +72,6 @@ Cet exemple de données structurées décrit à la fois l’exposition, avec son
         "http://kg.artsdata.ca/resource/K2-5986",
         "http://www.wikidata.org/entity/Q107051816"
       ]
-    }
-  ],
-  "performer": [
-    {
-      "@type": "Organization",
-      "@id": "http://topo.art/r/t1",
-      "name": "TOPO",
     }
   ],
   "workFeatured": [
